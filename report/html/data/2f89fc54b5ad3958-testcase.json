@@ -1,0 +1,80 @@
+{
+  "uid" : "2f89fc54b5ad3958",
+  "name" : "TestSimpleAndroid.test_03",
+  "title" : "Test 03",
+  "time" : {
+    "start" : 1526218519400,
+    "stop" : 1526218524182,
+    "duration" : 4782
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "User Logout",
+    "url" : "User Logout"
+  },
+  "suite" : {
+    "uid" : "35ef4d5131e1608f",
+    "name" : "API_Demos",
+    "title" : "API demos"
+  },
+  "steps" : [ {
+    "name" : "Testcase 03",
+    "title" : "Testcase 03",
+    "time" : {
+      "start" : 1526218521181,
+      "stop" : 1526218524182,
+      "duration" : 3001
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Test completed screenshot",
+    "source" : "4ae696c7-607a-4c2e-a907-9b56570894cd-attachment.png",
+    "type" : "image/png",
+    "size" : 79240,
+    "uid" : "f3e325da8d8fba9b"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "testId",
+    "value" : "User Logout"
+  }, {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "suite-name",
+    "value" : "API_Demos"
+  }, {
+    "name" : "feature",
+    "value" : "188Asia app QAT Sanity Test Suite"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "19613-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

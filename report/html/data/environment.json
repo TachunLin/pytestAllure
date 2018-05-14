@@ -1,0 +1,18 @@
+{
+  "id" : "e10a3322-7f80-4aee-bef4-7d2a61f2e324",
+  "name" : "Allure environment parameters",
+  "url" : null,
+  "parameter" : [ {
+    "name" : "Device",
+    "key" : "Device",
+    "value" : "Android emulator"
+  }, {
+    "name" : "Version",
+    "key" : "Version",
+    "value" : "Android 6.0"
+  }, {
+    "name" : "Type",
+    "key" : "Type",
+    "value" : "Demo"
+  } ]
+}

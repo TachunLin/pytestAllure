@@ -1,0 +1,333 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1526228955434" stop="1526229025764">
+  <name>API_Demos</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1526228955434" status="passed" stop="1526228993987">
+      <name>TestSimpleAndroid.test_01ActionBarTab</name>
+      <attachments>
+        <attachment source="abc4a4b9-68da-4993-ba52-2afadf710bf2-attachment.png" title="Test completed screenshot" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="API Demo Test"/>
+        <label name="story" value="Add action bar check"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="23977-MainThread"/>
+        <label name="host" value="Dag-MacBook-Pro"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1526228974315" status="passed" stop="1526228977960">
+          <name>Click App</name>
+          <title>Click App</title>
+          <attachments/>
+          <steps>
+            <step start="1526228974315" status="passed" stop="1526228974317">
+              <name>Click App</name>
+              <title>Click App</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1526228977960" status="passed" stop="1526228979068">
+          <name>Click Action</name>
+          <title>Click Action</title>
+          <attachments/>
+          <steps>
+            <step start="1526228977960" status="passed" stop="1526228977963">
+              <name>Click Action</name>
+              <title>Click Action</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1526228979069" status="passed" stop="1526228979990">
+          <name>Click Action Bar Tab</name>
+          <title>Click Action Bar Tab</title>
+          <attachments/>
+          <steps>
+            <step start="1526228979069" status="passed" stop="1526228979069">
+              <name>Click Action Bar Tab</name>
+              <title>Click Action Bar Tab</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1526228979990" status="passed" stop="1526228993132">
+          <name>Click Add New Tab 3 times</name>
+          <title>Click Add New Tab 3 times</title>
+          <attachments/>
+          <steps>
+            <step start="1526228979991" status="passed" stop="1526228979991">
+              <name>Click Add New Tab 3 times</name>
+              <title>Click Add New Tab 3 times</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1526228993132" status="passed" stop="1526228993339">
+          <name>Click Toggle Tab Mode</name>
+          <title>Click Toggle Tab Mode</title>
+          <attachments/>
+          <steps>
+            <step start="1526228993132" status="passed" stop="1526228993132">
+              <name>Click Toggle Tab Mode</name>
+              <title>Click Toggle Tab Mode</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1526228993339" status="passed" stop="1526228993987">
+          <name>Verify 3 tabs toggle</name>
+          <title>Verify 3 tabs toggle</title>
+          <attachments/>
+          <steps>
+            <step start="1526228993339" status="passed" stop="1526228993340">
+              <name>Verify 3 tabs toggle</name>
+              <title>Verify 3 tabs toggle</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526228993986" status="passed" stop="1526228993987">
+              <name>Pass~ Actual result: 3 match expectation: 3</name>
+              <title>Pass~ Actual result: 3 match expectation: 3</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1526228995225" status="failed" stop="1526229013300">
+      <name>TestSimpleAndroid.test_02TextView</name>
+      <failure>
+        <message>AssertionError: Mismatched!! Actual result: Selectable &lt;-&gt; expectation: NotSelectable</message>
+        <stack-trace>API_Demos.py:174: in test_02TextView
+    Util.verifyCheckPoint(Util(), driver, selectableText.text, "NotSelectable", request, log)
+Utilities/util.py:151: in verifyCheckPoint
+    assert 0, 'Mismatched!! Actual result: {0} &lt;-&gt; expectation: {1}'.format(actual, expectation)
+E   AssertionError: Mismatched!! Actual result: Selectable &lt;-&gt; expectation: NotSelectable</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="34942ef1-f346-43ac-8694-ce6c2a54c8c5-attachment.png" title="Test completed screenshot" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="API Demo Test"/>
+        <label name="story" value="Text on text view check"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="23977-MainThread"/>
+        <label name="host" value="Dag-MacBook-Pro"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1526228996800" status="passed" stop="1526229003109">
+          <name>Click Views</name>
+          <title>Click Views</title>
+          <attachments/>
+          <steps>
+            <step start="1526229002697" status="passed" stop="1526229002699">
+              <name>Click Views</name>
+              <title>Click Views</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1526229003109" status="passed" stop="1526229010772">
+          <name>Click Views</name>
+          <title>Click Views</title>
+          <attachments/>
+          <steps>
+            <step start="1526229010487" status="passed" stop="1526229010487">
+              <name>Click Views</name>
+              <title>Click Views</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1526229010772" status="passed" stop="1526229011684">
+          <name>Click TextView</name>
+          <title>Click TextView</title>
+          <attachments/>
+          <steps>
+            <step start="1526229010772" status="passed" stop="1526229010773">
+              <name>Click TextView</name>
+              <title>Click TextView</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1526229011684" status="failed" stop="1526229013248">
+          <name>Verify 4 text types exists</name>
+          <title>Verify 4 text types exists</title>
+          <attachments/>
+          <steps>
+            <step start="1526229011684" status="passed" stop="1526229011684">
+              <name>Verify small text</name>
+              <title>Verify small text</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229012390" status="passed" stop="1526229012390">
+              <name>Pass~ Actual result: Small match expectation: Small</name>
+              <title>Pass~ Actual result: Small match expectation: Small</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229012390" status="passed" stop="1526229012391">
+              <name>Verify medium text</name>
+              <title>Verify medium text</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229012442" status="passed" stop="1526229012443">
+              <name>Pass~ Actual result: Medium match expectation: Medium</name>
+              <title>Pass~ Actual result: Medium match expectation: Medium</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229012443" status="passed" stop="1526229012443">
+              <name>Verify large text</name>
+              <title>Verify large text</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229012500" status="passed" stop="1526229012500">
+              <name>Pass~ Actual result: Large match expectation: Large</name>
+              <title>Pass~ Actual result: Large match expectation: Large</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229012500" status="passed" stop="1526229012500">
+              <name>Verify selectable text</name>
+              <title>Verify selectable text</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229012570" status="failed" stop="1526229013248">
+              <name>Mismatched!! Actual result: Selectable &lt;-&gt; expectation: NotSelectable</name>
+              <title>Mismatched!! Actual result: Selectable &lt;-&gt; expectation: NotSelectable</title>
+              <attachments>
+                <attachment source="963bf678-d18e-4b36-833e-9f97331b4399-attachment.png" title="Assertion error screenshot" type="image/png"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1526229014600" status="passed" stop="1526229025764">
+      <name>TestSimpleAndroid.test_03PopupMenu</name>
+      <attachments>
+        <attachment source="eba9a508-a638-4470-8aad-ba669648e75c-attachment.png" title="Test completed screenshot" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="API Demo Test"/>
+        <label name="story" value="Popup menu items check"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="23977-MainThread"/>
+        <label name="host" value="Dag-MacBook-Pro"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1526229016411" status="passed" stop="1526229019548">
+          <name>Click Views</name>
+          <title>Click Views</title>
+          <attachments/>
+          <steps>
+            <step start="1526229019124" status="passed" stop="1526229019125">
+              <name>Click Views</name>
+              <title>Click Views</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1526229019548" status="passed" stop="1526229023958">
+          <name>Click Popup Menu</name>
+          <title>Click Popup Menu</title>
+          <attachments/>
+          <steps>
+            <step start="1526229023698" status="passed" stop="1526229023700">
+              <name>Click Popup Menu</name>
+              <title>Click Popup Menu</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1526229023958" status="passed" stop="1526229024962">
+          <name>Click Make a popup button</name>
+          <title>Click Make a popup button</title>
+          <attachments/>
+          <steps>
+            <step start="1526229023958" status="passed" stop="1526229023958">
+              <name>Click Make a popup button</name>
+              <title>Click Make a popup button</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1526229024963" status="passed" stop="1526229025763">
+          <name>Click Popup menus exists</name>
+          <title>Click Popup menus exists</title>
+          <attachments/>
+          <steps>
+            <step start="1526229024963" status="passed" stop="1526229024963">
+              <name>Click Popup menus exists</name>
+              <title>Click Popup menus exists</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229025688" status="passed" stop="1526229025688">
+              <name>Verify search text</name>
+              <title>Verify search text</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229025722" status="passed" stop="1526229025722">
+              <name>Pass~ Actual result: Search match expectation: Search</name>
+              <title>Pass~ Actual result: Search match expectation: Search</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229025722" status="passed" stop="1526229025723">
+              <name>Verify Add text</name>
+              <title>Verify Add text</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229025736" status="passed" stop="1526229025736">
+              <name>Pass~ Actual result: Add match expectation: Add</name>
+              <title>Pass~ Actual result: Add match expectation: Add</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229025736" status="passed" stop="1526229025737">
+              <name>Verify Edit text</name>
+              <title>Verify Edit text</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1526229025761" status="passed" stop="1526229025763">
+              <name>Pass~ Actual result: Edit match expectation: Edit</name>
+              <title>Pass~ Actual result: Edit match expectation: Edit</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,83 @@
+{
+  "uid" : "c1534471aa406df8",
+  "name" : "TestSimpleAndroid.test_01_userLogin",
+  "title" : "Test 01 user login",
+  "time" : {
+    "start" : 1526198139271,
+    "stop" : 1526198189016,
+    "duration" : 49745
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : {
+    "message" : "WebDriverException: Message: An unknown server-side error occurred while processing the command.\n",
+    "stackTrace" : "FDT_demo01.py:109: in test_01_userLogin\n    driver.swipe(540 * 1.5, 888, 540 * 0.5, 888, 200)\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/appium/webdriver/webdriver.py:287: in swipe\n    action.perform()\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/appium/webdriver/common/touch_action.py:94: in perform\n    self._driver.execute(Command.TOUCH_ACTION, params)\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py:312: in execute\n    self.error_handler.check_response(response)\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/appium/webdriver/errorhandler.py:29: in check_response\n    raise wde\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/appium/webdriver/errorhandler.py:24: in check_response\n    super(MobileErrorHandler, self).check_response(response)\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py:242: in check_response\n    raise exception_class(message, screen, stacktrace)\nE   selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command."
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : {
+    "name" : "First time install then login",
+    "url" : "First time install then login"
+  },
+  "suite" : {
+    "uid" : "562aeae57081b6d3",
+    "name" : "FDT_demo01",
+    "title" : "FDT demo 01"
+  },
+  "steps" : [ {
+    "name" : "Swipe left 3 times in the welcome page",
+    "title" : "Swipe left 3 times in the welcome page",
+    "time" : {
+      "start" : 1526198176327,
+      "stop" : 1526198188822,
+      "duration" : 12495
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Test completed screenshot",
+    "source" : "2e38fc89-13bd-46e6-914b-ab6d23944bfb-attachment.png",
+    "type" : "image/png",
+    "size" : 497981,
+    "uid" : "459d8666ca0106a"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "feature",
+    "value" : "188Asia app QAT Sanity Test Suite"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12947-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "suite-name",
+    "value" : "FDT_demo01"
+  }, {
+    "name" : "testId",
+    "value" : "First time install then login"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,83 @@
+{
+  "uid" : "d0f4fe31af2c252a",
+  "name" : "TestSimpleAndroid.test_03",
+  "title" : "Test 03",
+  "time" : {
+    "start" : 1526218385544,
+    "stop" : 1526218395366,
+    "duration" : 9822
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : {
+    "message" : "WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Can't stop process; it's not currently running (cmd: '/Users/cooldag/Library/Android/sdk/platform-tools/adb')\n",
+    "stackTrace" : "API_Demos.py:67: in fin\n    driver.quit()\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py:689: in quit\n    self.execute(Command.QUIT)\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py:312: in execute\n    self.error_handler.check_response(response)\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/appium/webdriver/errorhandler.py:29: in check_response\n    raise wde\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/appium/webdriver/errorhandler.py:24: in check_response\n    super(MobileErrorHandler, self).check_response(response)\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py:242: in check_response\n    raise exception_class(message, screen, stacktrace)\nE   selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Can't stop process; it's not currently running (cmd: '/Users/cooldag/Library/Android/sdk/platform-tools/adb')"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : {
+    "name" : "User Logout",
+    "url" : "User Logout"
+  },
+  "suite" : {
+    "uid" : "d05114ccdc8daa6c",
+    "name" : "API_Demos",
+    "title" : "API demos"
+  },
+  "steps" : [ {
+    "name" : "Testcase 03",
+    "title" : "Testcase 03",
+    "time" : {
+      "start" : 1526218387350,
+      "stop" : 1526218390351,
+      "duration" : 3001
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Test completed screenshot",
+    "source" : "ac7623af-a0be-40bc-a356-6627a007d33f-attachment.png",
+    "type" : "image/png",
+    "size" : 79304,
+    "uid" : "efcc97e288ac913e"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "testId",
+    "value" : "User Logout"
+  }, {
+    "name" : "thread",
+    "value" : "19409-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "suite-name",
+    "value" : "API_Demos"
+  }, {
+    "name" : "feature",
+    "value" : "188Asia app QAT Sanity Test Suite"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

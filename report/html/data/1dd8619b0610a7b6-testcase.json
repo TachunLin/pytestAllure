@@ -1,0 +1,296 @@
+{
+  "uid" : "1dd8619b0610a7b6",
+  "name" : "TestSimpleAndroid.test_02TextView",
+  "title" : "Test 02 text view",
+  "time" : {
+    "start" : 1526224949841,
+    "stop" : 1526224965087,
+    "duration" : 15246
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 15
+  },
+  "failure" : {
+    "message" : "AssertionError: Mismatched!! Actual result: Selectable <-> expectation: NotSelectable",
+    "stackTrace" : "API_Demos.py:180: in test_02TextView\n    Util.verifyCheckPoint(Util(), driver, selectableText.text, \"NotSelectable\", request, log)\nUtilities/util.py:151: in verifyCheckPoint\n    assert 0, 'Mismatched!! Actual result: {0} <-> expectation: {1}'.format(actual, expectation)\nE   AssertionError: Mismatched!! Actual result: Selectable <-> expectation: NotSelectable"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "dd68289891a3de97",
+    "name" : "API_Demos",
+    "title" : "API demos"
+  },
+  "steps" : [ {
+    "name" : "Click Views",
+    "title" : "Click Views",
+    "time" : {
+      "start" : 1526224951499,
+      "stop" : 1526224954688,
+      "duration" : 3189
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Views",
+      "title" : "Click Views",
+      "time" : {
+        "start" : 1526224954257,
+        "stop" : 1526224954259,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click Views",
+    "title" : "Click Views",
+    "time" : {
+      "start" : 1526224954688,
+      "stop" : 1526224962351,
+      "duration" : 7663
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Views",
+      "title" : "Click Views",
+      "time" : {
+        "start" : 1526224962065,
+        "stop" : 1526224962065,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click TextView",
+    "title" : "Click TextView",
+    "time" : {
+      "start" : 1526224962351,
+      "stop" : 1526224963284,
+      "duration" : 933
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click TextView",
+      "title" : "Click TextView",
+      "time" : {
+        "start" : 1526224962351,
+        "stop" : 1526224962352,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Verify 4 text types exists",
+    "title" : "Verify 4 text types exists",
+    "time" : {
+      "start" : 1526224963284,
+      "stop" : 1526224965063,
+      "duration" : 1779
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 8
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Verify small text",
+      "title" : "Verify small text",
+      "time" : {
+        "start" : 1526224963284,
+        "stop" : 1526224963285,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Pass~ Actual result: Small match expectation: Small",
+      "title" : "Pass~ Actual result: Small match expectation: Small",
+      "time" : {
+        "start" : 1526224963997,
+        "stop" : 1526224963998,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Verify medium text",
+      "title" : "Verify medium text",
+      "time" : {
+        "start" : 1526224963998,
+        "stop" : 1526224963998,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Pass~ Actual result: Medium match expectation: Medium",
+      "title" : "Pass~ Actual result: Medium match expectation: Medium",
+      "time" : {
+        "start" : 1526224964068,
+        "stop" : 1526224964068,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Verify large text",
+      "title" : "Verify large text",
+      "time" : {
+        "start" : 1526224964068,
+        "stop" : 1526224964069,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Pass~ Actual result: Large match expectation: Large",
+      "title" : "Pass~ Actual result: Large match expectation: Large",
+      "time" : {
+        "start" : 1526224964156,
+        "stop" : 1526224964157,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Verify selectable text",
+      "title" : "Verify selectable text",
+      "time" : {
+        "start" : 1526224964157,
+        "stop" : 1526224964157,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Mismatched!! Actual result: Selectable <-> expectation: NotSelectable",
+      "title" : "Mismatched!! Actual result: Selectable <-> expectation: NotSelectable",
+      "time" : {
+        "start" : 1526224964237,
+        "stop" : 1526224965063,
+        "duration" : 826
+      },
+      "summary" : {
+        "attachments" : 1,
+        "steps" : 0
+      },
+      "status" : "FAILED",
+      "attachments" : [ {
+        "title" : "Assertion error screenshot",
+        "source" : "85eb461e-4a65-4318-aa3f-c9669b4a0ccf-attachment.png",
+        "type" : "image/png",
+        "size" : 79419,
+        "uid" : "2aca442136cb05f8"
+      } ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ {
+    "title" : "Test completed screenshot",
+    "source" : "53dc9862-f68e-4562-89a8-60105fee3824-attachment.png",
+    "type" : "image/png",
+    "size" : 79419,
+    "uid" : "18bf6abb906a0875"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "22066-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Text on text view check"
+  }, {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "suite-name",
+    "value" : "API_Demos"
+  }, {
+    "name" : "feature",
+    "value" : "188Asia app QAT Sanity Test Suite"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

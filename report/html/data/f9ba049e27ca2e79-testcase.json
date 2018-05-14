@@ -1,0 +1,272 @@
+{
+  "uid" : "f9ba049e27ca2e79",
+  "name" : "TestSimpleAndroid.test_03PopupMenu",
+  "title" : "Test 03 popup menu",
+  "time" : {
+    "start" : 1526225209877,
+    "stop" : 1526225220911,
+    "duration" : 11034
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 14
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "31c8fd4ce0eec64b",
+    "name" : "API_Demos",
+    "title" : "API demos"
+  },
+  "steps" : [ {
+    "name" : "Click Views",
+    "title" : "Click Views",
+    "time" : {
+      "start" : 1526225211644,
+      "stop" : 1526225214919,
+      "duration" : 3275
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Views",
+      "title" : "Click Views",
+      "time" : {
+        "start" : 1526225214553,
+        "stop" : 1526225214553,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click Popup Menu",
+    "title" : "Click Popup Menu",
+    "time" : {
+      "start" : 1526225214919,
+      "stop" : 1526225219101,
+      "duration" : 4182
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Popup Menu",
+      "title" : "Click Popup Menu",
+      "time" : {
+        "start" : 1526225218830,
+        "stop" : 1526225218830,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click Make a popup button",
+    "title" : "Click Make a popup button",
+    "time" : {
+      "start" : 1526225219101,
+      "stop" : 1526225220111,
+      "duration" : 1010
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Make a popup button",
+      "title" : "Click Make a popup button",
+      "time" : {
+        "start" : 1526225219101,
+        "stop" : 1526225219101,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click Popup menus exists",
+    "title" : "Click Popup menus exists",
+    "time" : {
+      "start" : 1526225220112,
+      "stop" : 1526225220910,
+      "duration" : 798
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 7
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Popup menus exists",
+      "title" : "Click Popup menus exists",
+      "time" : {
+        "start" : 1526225220112,
+        "stop" : 1526225220112,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Verify search text",
+      "title" : "Verify search text",
+      "time" : {
+        "start" : 1526225220842,
+        "stop" : 1526225220842,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Pass~ Actual result: Search match expectation: Search",
+      "title" : "Pass~ Actual result: Search match expectation: Search",
+      "time" : {
+        "start" : 1526225220861,
+        "stop" : 1526225220861,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Verify Add text",
+      "title" : "Verify Add text",
+      "time" : {
+        "start" : 1526225220861,
+        "stop" : 1526225220861,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Pass~ Actual result: Add match expectation: Add",
+      "title" : "Pass~ Actual result: Add match expectation: Add",
+      "time" : {
+        "start" : 1526225220889,
+        "stop" : 1526225220889,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Verify Edit text",
+      "title" : "Verify Edit text",
+      "time" : {
+        "start" : 1526225220889,
+        "stop" : 1526225220890,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Pass~ Actual result: Edit match expectation: Edit",
+      "title" : "Pass~ Actual result: Edit match expectation: Edit",
+      "time" : {
+        "start" : 1526225220910,
+        "stop" : 1526225220910,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ {
+    "title" : "Test completed screenshot",
+    "source" : "a53072aa-5976-40e7-b4e3-9acc0e367c7b-attachment.png",
+    "type" : "image/png",
+    "size" : 61362,
+    "uid" : "70d61267ebcc01a8"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Popup menu items check"
+  }, {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "suite-name",
+    "value" : "API_Demos"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "feature",
+    "value" : "API Demo Test"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "22284-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

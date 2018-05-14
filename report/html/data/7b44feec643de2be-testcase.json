@@ -1,0 +1,149 @@
+{
+  "uid" : "7b44feec643de2be",
+  "name" : "TestSimpleAndroid.test_01_userLogin",
+  "title" : "Test 01 user login",
+  "time" : {
+    "start" : 1526198479844,
+    "stop" : 1526198545242,
+    "duration" : 65398
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 5
+  },
+  "failure" : {
+    "message" : "AssertionError: Cannot find ('xpath', \"//android.widget.TextView[@text='Sign in']\") element",
+    "stackTrace" : "Common/appiumCommonBase.py:37: in locateElement\n    element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/support/wait.py:80: in until\n    raise TimeoutException(message, screen, stacktrace)\nE   selenium.common.exceptions.TimeoutException: Message:\n\nDuring handling of the above exception, another exception occurred:\nFDT_demo01.py:118: in test_01_userLogin\n    signinTab = loginPage.locateElement(loginPage.signinTab, driver, request)\nCommon/appiumCommonBase.py:45: in locateElement\n    assert 0, \"Cannot find {0} element\".format(loc)\nE   AssertionError: Cannot find ('xpath', \"//android.widget.TextView[@text='Sign in']\") element"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : {
+    "name" : "First time install then login",
+    "url" : "First time install then login"
+  },
+  "suite" : {
+    "uid" : "9cc0c7686000f74b",
+    "name" : "FDT_demo01",
+    "title" : "FDT demo 01"
+  },
+  "steps" : [ {
+    "name" : "Swipe left 3 times in the welcome page",
+    "title" : "Swipe left 3 times in the welcome page",
+    "time" : {
+      "start" : 1526198516849,
+      "stop" : 1526198529335,
+      "duration" : 12486
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click Start button",
+    "title" : "Click Start button",
+    "time" : {
+      "start" : 1526198529335,
+      "stop" : 1526198533513,
+      "duration" : 4178
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Start button",
+      "title" : "Click Start button",
+      "time" : {
+        "start" : 1526198529336,
+        "stop" : 1526198529338,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click Signin Tab",
+    "title" : "Click Signin Tab",
+    "time" : {
+      "start" : 1526198533513,
+      "stop" : 1526198545178,
+      "duration" : 11665
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "FAILED",
+    "attachments" : [ {
+      "title" : "Cannot find ('xpath', \"//android.widget.TextView[@text='Sign in']\") element",
+      "source" : "faedd5d3-0de1-4118-92a9-8accd8be6de1-attachment.png",
+      "type" : "image/png",
+      "size" : 531996,
+      "uid" : "beecd77a82aea5b0"
+    } ],
+    "steps" : [ {
+      "name" : "Click Signin Tab",
+      "title" : "Click Signin Tab",
+      "time" : {
+        "start" : 1526198533513,
+        "stop" : 1526198533514,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ {
+    "title" : "Test completed screenshot",
+    "source" : "1eec8ad0-49a4-4dbd-add3-f93eee9ccf56-attachment.png",
+    "type" : "image/png",
+    "size" : 531996,
+    "uid" : "24b5aaad3ed60d0"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "thread",
+    "value" : "13333-MainThread"
+  }, {
+    "name" : "feature",
+    "value" : "188Asia app QAT Sanity Test Suite"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "suite-name",
+    "value" : "FDT_demo01"
+  }, {
+    "name" : "testId",
+    "value" : "First time install then login"
+  } ],
+  "parameters" : [ ]
+}

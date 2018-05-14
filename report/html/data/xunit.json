@@ -1,0 +1,60 @@
+{
+  "time" : {
+    "start" : 1526228955434,
+    "stop" : 1526229025764,
+    "duration" : 70330
+  },
+  "testSuites" : [ {
+    "uid" : "eac2e00a8293bdec",
+    "name" : "API_Demos",
+    "title" : "API demos",
+    "time" : {
+      "start" : 1526228955434,
+      "stop" : 1526229025764,
+      "duration" : 70330
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "1fb1762a279bd09f",
+      "name" : "TestSimpleAndroid.test_01ActionBarTab",
+      "title" : "Test 01 action bar tab",
+      "time" : {
+        "start" : 1526228955434,
+        "stop" : 1526228993987,
+        "duration" : 38553
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7817a2a7f16aaaf8",
+      "name" : "TestSimpleAndroid.test_02TextView",
+      "title" : "Test 02 text view",
+      "time" : {
+        "start" : 1526228995225,
+        "stop" : 1526229013300,
+        "duration" : 18075
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "4b63fdb0913fc41b",
+      "name" : "TestSimpleAndroid.test_03PopupMenu",
+      "title" : "Test 03 popup menu",
+      "time" : {
+        "start" : 1526229014600,
+        "stop" : 1526229025764,
+        "duration" : 11164
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

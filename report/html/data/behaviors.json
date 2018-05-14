@@ -1,0 +1,83 @@
+{
+  "features" : [ {
+    "title" : "API Demo Test",
+    "statistic" : {
+      "total" : 3,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "63d16afccc99098c",
+      "title" : "Add action bar check",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "1fb1762a279bd09f",
+        "name" : "TestSimpleAndroid.test_01ActionBarTab",
+        "title" : "Test 01 action bar tab",
+        "time" : {
+          "start" : 1526228955434,
+          "stop" : 1526228993987,
+          "duration" : 38553
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "99430313980103e8",
+      "title" : "Text on text view check",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "7817a2a7f16aaaf8",
+        "name" : "TestSimpleAndroid.test_02TextView",
+        "title" : "Test 02 text view",
+        "time" : {
+          "start" : 1526228995225,
+          "stop" : 1526229013300,
+          "duration" : 18075
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "b3aaed1dd881a8e8",
+      "title" : "Popup menu items check",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "4b63fdb0913fc41b",
+        "name" : "TestSimpleAndroid.test_03PopupMenu",
+        "title" : "Test 03 popup menu",
+        "time" : {
+          "start" : 1526229014600,
+          "stop" : 1526229025764,
+          "duration" : 11164
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

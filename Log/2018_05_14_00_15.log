@@ -1,0 +1,56 @@
+05/14/2018 12:24:35 AM - <module> - INFO: Click App
+05/14/2018 12:24:39 AM - <module> - INFO: Click Action
+05/14/2018 12:24:40 AM - <module> - INFO: Click Action Bar Tab
+05/14/2018 12:24:41 AM - <module> - INFO: Click Add New Tab 3 times
+05/14/2018 12:24:54 AM - <module> - INFO: Click Toggle Tab Mode
+05/14/2018 12:24:54 AM - <module> - INFO: Verify 3 tabs toggle
+05/14/2018 12:24:55 AM - <module> - INFO: Pass~ Actual result: 3 match expectation: 3
+05/14/2018 12:25:01 AM - <module> - INFO: Click Views
+05/14/2018 12:25:09 AM - <module> - INFO: Click Views
+05/14/2018 12:25:09 AM - <module> - INFO: Click TextView
+05/14/2018 12:25:10 AM - <module> - INFO: Verify small text
+05/14/2018 12:25:11 AM - <module> - INFO: Pass~ Actual result: Small match expectation: Small
+05/14/2018 12:25:11 AM - <module> - INFO: Verify medium text
+05/14/2018 12:25:11 AM - <module> - INFO: Pass~ Actual result: Medium match expectation: Medium
+05/14/2018 12:25:11 AM - <module> - INFO: Verify large text
+05/14/2018 12:25:11 AM - <module> - INFO: Pass~ Actual result: Large match expectation: Large
+05/14/2018 12:25:11 AM - <module> - INFO: Verify selectable text
+05/14/2018 12:25:11 AM - <module> - ERROR: Mismatched!! Actual result: Selectable <-> expectation: NotSelectable
+05/14/2018 12:25:20 AM - <module> - INFO: Click Views
+05/14/2018 12:25:25 AM - <module> - INFO: Click Popup Menu
+05/14/2018 12:25:25 AM - <module> - INFO: Click Make a popup button
+05/14/2018 12:25:26 AM - <module> - INFO: Click Popup menus exists
+05/14/2018 12:25:27 AM - <module> - INFO: Verify search text
+05/14/2018 12:25:27 AM - <module> - INFO: Pass~ Actual result: Search match expectation: Search
+05/14/2018 12:25:27 AM - <module> - INFO: Verify Add text
+05/14/2018 12:25:27 AM - <module> - INFO: Pass~ Actual result: Add match expectation: Add
+05/14/2018 12:25:27 AM - <module> - INFO: Verify Edit text
+05/14/2018 12:25:27 AM - <module> - INFO: Pass~ Actual result: Edit match expectation: Edit
+05/14/2018 12:29:34 AM - <module> - INFO: Click App
+05/14/2018 12:29:37 AM - <module> - INFO: Click Action
+05/14/2018 12:29:39 AM - <module> - INFO: Click Action Bar Tab
+05/14/2018 12:29:39 AM - <module> - INFO: Click Add New Tab 3 times
+05/14/2018 12:29:53 AM - <module> - INFO: Click Toggle Tab Mode
+05/14/2018 12:29:53 AM - <module> - INFO: Verify 3 tabs toggle
+05/14/2018 12:29:53 AM - <module> - INFO: Pass~ Actual result: 3 match expectation: 3
+05/14/2018 12:30:02 AM - <module> - INFO: Click Views
+05/14/2018 12:30:10 AM - <module> - INFO: Click Views
+05/14/2018 12:30:10 AM - <module> - INFO: Click TextView
+05/14/2018 12:30:11 AM - <module> - INFO: Verify small text
+05/14/2018 12:30:12 AM - <module> - INFO: Pass~ Actual result: Small match expectation: Small
+05/14/2018 12:30:12 AM - <module> - INFO: Verify medium text
+05/14/2018 12:30:12 AM - <module> - INFO: Pass~ Actual result: Medium match expectation: Medium
+05/14/2018 12:30:12 AM - <module> - INFO: Verify large text
+05/14/2018 12:30:12 AM - <module> - INFO: Pass~ Actual result: Large match expectation: Large
+05/14/2018 12:30:12 AM - <module> - INFO: Verify selectable text
+05/14/2018 12:30:13 AM - <module> - ERROR: Mismatched!! Actual result: Selectable <-> expectation: NotSelectable
+05/14/2018 12:30:19 AM - <module> - INFO: Click Views
+05/14/2018 12:30:23 AM - <module> - INFO: Click Popup Menu
+05/14/2018 12:30:23 AM - <module> - INFO: Click Make a popup button
+05/14/2018 12:30:24 AM - <module> - INFO: Click Popup menus exists
+05/14/2018 12:30:25 AM - <module> - INFO: Verify search text
+05/14/2018 12:30:25 AM - <module> - INFO: Pass~ Actual result: Search match expectation: Search
+05/14/2018 12:30:25 AM - <module> - INFO: Verify Add text
+05/14/2018 12:30:25 AM - <module> - INFO: Pass~ Actual result: Add match expectation: Add
+05/14/2018 12:30:25 AM - <module> - INFO: Verify Edit text
+05/14/2018 12:30:25 AM - <module> - INFO: Pass~ Actual result: Edit match expectation: Edit

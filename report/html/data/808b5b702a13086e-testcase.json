@@ -1,0 +1,80 @@
+{
+  "uid" : "808b5b702a13086e",
+  "name" : "TestSimpleAndroid.test_02_placeForexOrder",
+  "title" : "Test 02 place forex order",
+  "time" : {
+    "start" : 1526197413907,
+    "stop" : 1526197420254,
+    "duration" : 6347
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "Place Forex Order",
+    "url" : "Place Forex Order"
+  },
+  "suite" : {
+    "uid" : "332755c8ef34b9e6",
+    "name" : "FDT_demo01",
+    "title" : "FDT demo 01"
+  },
+  "steps" : [ {
+    "name" : "Testcase 02",
+    "title" : "Testcase 02",
+    "time" : {
+      "start" : 1526197417253,
+      "stop" : 1526197420253,
+      "duration" : 3000
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Execution final screenshot",
+    "source" : "0a18a45a-e900-44a6-a9c0-0363bf268d58-attachment.png",
+    "type" : "image/png",
+    "size" : 676453,
+    "uid" : "a5ae49f7ab11a478"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "feature",
+    "value" : "188Asia app QAT Sanity Test Suite"
+  }, {
+    "name" : "thread",
+    "value" : "12625-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "Place Forex Order"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "suite-name",
+    "value" : "FDT_demo01"
+  } ],
+  "parameters" : [ ]
+}

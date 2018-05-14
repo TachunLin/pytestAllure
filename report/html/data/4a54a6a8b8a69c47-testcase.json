@@ -1,0 +1,257 @@
+{
+  "uid" : "4a54a6a8b8a69c47",
+  "name" : "TestSimpleAndroid.test_01ActionBarTab",
+  "title" : "Test 01 action bar tab",
+  "time" : {
+    "start" : 1526225151392,
+    "stop" : 1526225189842,
+    "duration" : 38450
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 13
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "31c8fd4ce0eec64b",
+    "name" : "API_Demos",
+    "title" : "API demos"
+  },
+  "steps" : [ {
+    "name" : "Click App",
+    "title" : "Click App",
+    "time" : {
+      "start" : 1526225170383,
+      "stop" : 1526225170795,
+      "duration" : 412
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click App",
+      "title" : "Click App",
+      "time" : {
+        "start" : 1526225170383,
+        "stop" : 1526225170384,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click Action",
+    "title" : "Click Action",
+    "time" : {
+      "start" : 1526225170795,
+      "stop" : 1526225171750,
+      "duration" : 955
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Action",
+      "title" : "Click Action",
+      "time" : {
+        "start" : 1526225170795,
+        "stop" : 1526225170796,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click Action Bar Tab",
+    "title" : "Click Action Bar Tab",
+    "time" : {
+      "start" : 1526225171750,
+      "stop" : 1526225172783,
+      "duration" : 1033
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Action Bar Tab",
+      "title" : "Click Action Bar Tab",
+      "time" : {
+        "start" : 1526225171750,
+        "stop" : 1526225171750,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click Add New Tab 3 times",
+    "title" : "Click Add New Tab 3 times",
+    "time" : {
+      "start" : 1526225172783,
+      "stop" : 1526225188921,
+      "duration" : 16138
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Add New Tab 3 times",
+      "title" : "Click Add New Tab 3 times",
+      "time" : {
+        "start" : 1526225172783,
+        "stop" : 1526225172783,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click Toggle Tab Mode",
+    "title" : "Click Toggle Tab Mode",
+    "time" : {
+      "start" : 1526225188921,
+      "stop" : 1526225189106,
+      "duration" : 185
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Toggle Tab Mode",
+      "title" : "Click Toggle Tab Mode",
+      "time" : {
+        "start" : 1526225188921,
+        "stop" : 1526225188921,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Verify 3 tabs toggle",
+    "title" : "Verify 3 tabs toggle",
+    "time" : {
+      "start" : 1526225189106,
+      "stop" : 1526225189841,
+      "duration" : 735
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Verify 3 tabs toggle",
+      "title" : "Verify 3 tabs toggle",
+      "time" : {
+        "start" : 1526225189106,
+        "stop" : 1526225189106,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Pass~ Actual result: 3 match expectation: 3",
+      "title" : "Pass~ Actual result: 3 match expectation: 3",
+      "time" : {
+        "start" : 1526225189840,
+        "stop" : 1526225189841,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ {
+    "title" : "Test completed screenshot",
+    "source" : "811c9591-84ba-49d6-86b7-78dd88ca6278-attachment.png",
+    "type" : "image/png",
+    "size" : 70191,
+    "uid" : "f5ec6a988413b50"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Add action bar check"
+  }, {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "suite-name",
+    "value" : "API_Demos"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "feature",
+    "value" : "API Demo Test"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "22284-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

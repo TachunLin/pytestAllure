@@ -1,0 +1,44 @@
+import pytest
+import datetime
+import os
+import allure
+from allure.constants import AttachmentType
+from helpers import ensure_dir
+from Utilities.util import Util
+
+
+def pytest_configure(config):
+    if not hasattr(config, "slaveinput"):
+        current_day = (datetime.datetime.now().strftime("%Y_%m_%d_%H_%S"))
+        ensure_dir("results")
+        ensure_dir(os.path.join("results", current_day))
+        result_dir = os.path.join(os.path.dirname(__file__), "results", current_day)
+        ensure_dir(result_dir)
+        result_dir_test_run = result_dir
+        ensure_dir(os.path.join(result_dir_test_run, "screenshots"))
+        ensure_dir(os.path.join(result_dir_test_run, "logcat"))
+        config.screen_shot_dir = os.path.join(result_dir_test_run, "screenshots")
+        config.logcat_dir = os.path.join(result_dir_test_run, "logcat")
+
+
+class DeviceLogger:
+    def __init__(self, logcat_dir, screenshot_dir):
+        self.screenshot_dir = screenshot_dir
+        self.logcat_dir = logcat_dir
+
+
+@pytest.fixture(scope="module")
+def device_logger(request):
+    logcat_dir = request.config.logcat_dir
+    screenshot_dir = request.config.screen_shot_dir
+    return DeviceLogger(logcat_dir, screenshot_dir)
+
+
+def pytest_addoption(parser):
+    parser.addoption("--device")
+
+
+@pytest.fixture(scope="session")
+def device(request):
+    return request.config.getoption("--device")
+

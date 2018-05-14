@@ -1,0 +1,170 @@
+{
+  "uid" : "7b3f3bd57942eba9",
+  "name" : "TestSimpleAndroid.test_01_textView",
+  "title" : "Test 01 text view",
+  "time" : {
+    "start" : 1526218473238,
+    "stop" : 1526218511775,
+    "duration" : 38537
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "Text on text view",
+    "url" : "Text on text view"
+  },
+  "suite" : {
+    "uid" : "35ef4d5131e1608f",
+    "name" : "API_Demos",
+    "title" : "API demos"
+  },
+  "steps" : [ {
+    "name" : "Click App",
+    "title" : "Click App",
+    "time" : {
+      "start" : 1526218492400,
+      "stop" : 1526218492801,
+      "duration" : 401
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click Action",
+    "title" : "Click Action",
+    "time" : {
+      "start" : 1526218492801,
+      "stop" : 1526218493997,
+      "duration" : 1196
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click Action Bar Tab",
+    "title" : "Click Action Bar Tab",
+    "time" : {
+      "start" : 1526218493997,
+      "stop" : 1526218494873,
+      "duration" : 876
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click Add New Tab 3 times",
+    "title" : "Click Add New Tab 3 times",
+    "time" : {
+      "start" : 1526218494873,
+      "stop" : 1526218510986,
+      "duration" : 16113
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click Toggle Tab Mode",
+    "title" : "Click Toggle Tab Mode",
+    "time" : {
+      "start" : 1526218510986,
+      "stop" : 1526218511153,
+      "duration" : 167
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Verify 3 tabs toggle ",
+    "title" : "Verify 3 tabs toggle ",
+    "time" : {
+      "start" : 1526218511153,
+      "stop" : 1526218511774,
+      "duration" : 621
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Pass~ Actual result: 3 match expectation: 3",
+      "title" : "Pass~ Actual result: 3 match expectation: 3",
+      "time" : {
+        "start" : 1526218511772,
+        "stop" : 1526218511774,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ {
+    "title" : "Test completed screenshot",
+    "source" : "a34db52d-fd5f-4c5f-a646-cd3a5dd7fbc0-attachment.png",
+    "type" : "image/png",
+    "size" : 69179,
+    "uid" : "50dba4fbbca03afc"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "testId",
+    "value" : "Text on text view"
+  }, {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "suite-name",
+    "value" : "API_Demos"
+  }, {
+    "name" : "feature",
+    "value" : "188Asia app QAT Sanity Test Suite"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "19613-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

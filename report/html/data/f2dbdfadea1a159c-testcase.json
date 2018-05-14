@@ -1,0 +1,128 @@
+{
+  "uid" : "f2dbdfadea1a159c",
+  "name" : "TestSimpleAndroid.test_01_textView",
+  "title" : "Test 01 text view",
+  "time" : {
+    "start" : 1526208228705,
+    "stop" : 1526208266770,
+    "duration" : 38065
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 4
+  },
+  "failure" : {
+    "message" : "AssertionError: Cannot find ('id', 'com.example.android.apis:id/btn_add_tab') element",
+    "stackTrace" : "Common/appiumCommonBase.py:37: in locateElement\n    element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/support/wait.py:80: in until\n    raise TimeoutException(message, screen, stacktrace)\nE   selenium.common.exceptions.TimeoutException: Message:\n\nDuring handling of the above exception, another exception occurred:\nAPI_Demos.py:109: in test_01_textView\n    addNewTabButton = actionBarTab.locateElement(actionBarTab.AddNewTab, driver, request)\nCommon/appiumCommonBase.py:45: in locateElement\n    assert 0, \"Cannot find {0} element\".format(loc)\nE   AssertionError: Cannot find ('id', 'com.example.android.apis:id/btn_add_tab') element"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : {
+    "name" : "Text on text view",
+    "url" : "Text on text view"
+  },
+  "suite" : {
+    "uid" : "78f34d94e7ae62f0",
+    "name" : "API_Demos",
+    "title" : "API demos"
+  },
+  "steps" : [ {
+    "name" : "Click App",
+    "title" : "Click App",
+    "time" : {
+      "start" : 1526208250088,
+      "stop" : 1526208253415,
+      "duration" : 3327
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click Action",
+    "title" : "Click Action",
+    "time" : {
+      "start" : 1526208253415,
+      "stop" : 1526208254451,
+      "duration" : 1036
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click Action Bar Tab",
+    "title" : "Click Action Bar Tab",
+    "time" : {
+      "start" : 1526208254451,
+      "stop" : 1526208255362,
+      "duration" : 911
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click Add New Tab 3 times",
+    "title" : "Click Add New Tab 3 times",
+    "time" : {
+      "start" : 1526208255362,
+      "stop" : 1526208266709,
+      "duration" : 11347
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ {
+      "title" : "Cannot find ('id', 'com.example.android.apis:id/btn_add_tab') element",
+      "source" : "d8bf39a3-0923-4aeb-a29a-9a0b2bd35bc6-attachment.png",
+      "type" : "image/png",
+      "size" : 80331,
+      "uid" : "c472e02f5b89adb4"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "testId",
+    "value" : "Text on text view"
+  }, {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "suite-name",
+    "value" : "API_Demos"
+  }, {
+    "name" : "feature",
+    "value" : "188Asia app QAT Sanity Test Suite"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "thread",
+    "value" : "16377-MainThread"
+  } ],
+  "parameters" : [ ]
+}

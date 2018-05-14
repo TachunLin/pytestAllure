@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "652c2d67701bc8e",
+      "failure" : {
+        "message" : "AssertionError: Mismatched!! Actual result: Selectable <-> expectation: NotSelectable",
+        "stackTrace" : "API_Demos.py:174: in test_02TextView\n    Util.verifyCheckPoint(Util(), driver, selectableText.text, \"NotSelectable\", request, log)\nUtilities/util.py:151: in verifyCheckPoint\n    assert 0, 'Mismatched!! Actual result: {0} <-> expectation: {1}'.format(actual, expectation)\nE   AssertionError: Mismatched!! Actual result: Selectable <-> expectation: NotSelectable"
+      },
+      "testCases" : [ {
+        "uid" : "7817a2a7f16aaaf8",
+        "name" : "TestSimpleAndroid.test_02TextView",
+        "title" : "Test 02 text view",
+        "time" : {
+          "start" : 1526228995225,
+          "stop" : 1526229013300,
+          "duration" : 18075
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

@@ -1,0 +1,308 @@
+{
+  "uid" : "a02c539041972eb3",
+  "name" : "TestSimpleAndroid.test_01_userLogin",
+  "title" : "Test 01 user login",
+  "time" : {
+    "start" : 1526199262122,
+    "stop" : 1526199337871,
+    "duration" : 75749
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 16
+  },
+  "failure" : {
+    "message" : "AssertionError: Mismatched!! Actual result: 6.4.2.180211001-PROD <-> expectation: 6.4.2.180211001-PRODxxx",
+    "stackTrace" : "FDT_demo01.py:157: in test_01_userLogin\n    Util.verifyCheckPoint(Util(), driver, versionNumber.get_attribute(\"name\"), \"6.4.2.180211001-PRODxxx\", request, log)\nUtilities/util.py:151: in verifyCheckPoint\n    assert 0, 'Mismatched!! Actual result: {0} <-> expectation: {1}'.format(actual, expectation)\nE   AssertionError: Mismatched!! Actual result: 6.4.2.180211001-PROD <-> expectation: 6.4.2.180211001-PRODxxx"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : {
+    "name" : "First time install then login",
+    "url" : "First time install then login"
+  },
+  "suite" : {
+    "uid" : "ae28c171c0e0dd82",
+    "name" : "FDT_demo01",
+    "title" : "FDT demo 01"
+  },
+  "steps" : [ {
+    "name" : "Swipe left 3 times in the welcome page",
+    "title" : "Swipe left 3 times in the welcome page",
+    "time" : {
+      "start" : 1526199299222,
+      "stop" : 1526199311690,
+      "duration" : 12468
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click Start button",
+    "title" : "Click Start button",
+    "time" : {
+      "start" : 1526199311690,
+      "stop" : 1526199313397,
+      "duration" : 1707
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Start button",
+      "title" : "Click Start button",
+      "time" : {
+        "start" : 1526199311690,
+        "stop" : 1526199311692,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click Signin Tab",
+    "title" : "Click Signin Tab",
+    "time" : {
+      "start" : 1526199313397,
+      "stop" : 1526199313858,
+      "duration" : 461
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click Signin Tab",
+      "title" : "Click Signin Tab",
+      "time" : {
+        "start" : 1526199313398,
+        "stop" : 1526199313398,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click FDT ID/Email",
+    "title" : "Click FDT ID/Email",
+    "time" : {
+      "start" : 1526199313858,
+      "stop" : 1526199314745,
+      "duration" : 887
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Click FDT ID/Email",
+      "title" : "Click FDT ID/Email",
+      "time" : {
+        "start" : 1526199313859,
+        "stop" : 1526199313860,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Enter username and password",
+    "title" : "Enter username and password",
+    "time" : {
+      "start" : 1526199314745,
+      "stop" : 1526199326419,
+      "duration" : 11674
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click Login Button",
+    "title" : "Click Login Button",
+    "time" : {
+      "start" : 1526199326419,
+      "stop" : 1526199327192,
+      "duration" : 773
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click Me Module",
+    "title" : "Click Me Module",
+    "time" : {
+      "start" : 1526199327192,
+      "stop" : 1526199329854,
+      "duration" : 2662
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Verify userName exists",
+    "title" : "Verify userName exists",
+    "time" : {
+      "start" : 1526199329854,
+      "stop" : 1526199330898,
+      "duration" : 1044
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Pass~ Actual result: paidasin match expectation: paidasin",
+      "title" : "Pass~ Actual result: paidasin match expectation: paidasin",
+      "time" : {
+        "start" : 1526199330895,
+        "stop" : 1526199330898,
+        "duration" : 3
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Click settings",
+    "title" : "Click settings",
+    "time" : {
+      "start" : 1526199330898,
+      "stop" : 1526199331198,
+      "duration" : 300
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click About Us",
+    "title" : "Click About Us",
+    "time" : {
+      "start" : 1526199331198,
+      "stop" : 1526199331924,
+      "duration" : 726
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Verify version number",
+    "title" : "Verify version number",
+    "time" : {
+      "start" : 1526199336925,
+      "stop" : 1526199337793,
+      "duration" : 868
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Mismatched!! Actual result: 6.4.2.180211001-PROD <-> expectation: 6.4.2.180211001-PRODxxx",
+      "title" : "Mismatched!! Actual result: 6.4.2.180211001-PROD <-> expectation: 6.4.2.180211001-PRODxxx",
+      "time" : {
+        "start" : 1526199337016,
+        "stop" : 1526199337793,
+        "duration" : 777
+      },
+      "summary" : {
+        "attachments" : 1,
+        "steps" : 0
+      },
+      "status" : "FAILED",
+      "attachments" : [ {
+        "title" : "Assertion error screenshot",
+        "source" : "5138b2fd-ef82-4f69-8f5b-4ed0db9477ff-attachment.png",
+        "type" : "image/png",
+        "size" : 121508,
+        "uid" : "42009e8f9fa01dd6"
+      } ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "feature",
+    "value" : "188Asia app QAT Sanity Test Suite"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "13781-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "suite-name",
+    "value" : "FDT_demo01"
+  }, {
+    "name" : "testId",
+    "value" : "First time install then login"
+  } ],
+  "parameters" : [ ]
+}

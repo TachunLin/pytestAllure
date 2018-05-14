@@ -1,0 +1,77 @@
+{
+  "uid" : "6ce0238be426b499",
+  "name" : "TestSimpleAndroid.test_02_placeForexOrder",
+  "title" : "Test 02 place forex order",
+  "time" : {
+    "start" : 1526198190982,
+    "stop" : 1526198197362,
+    "duration" : 6380
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : {
+    "message" : "TypeError: stat: can't specify None for path argument",
+    "stackTrace" : "FDT_demo01.py:82: in setUp\n    open(Util.saveExeScreenShot(Util(), driver, request.node.name), 'rb').read(),\nUtilities/util.py:163: in saveExeScreenShot\n    ensure_dir(result_dir)\nhelpers.py:7: in ensure_dir\n    if not os.path.exists(directory):\n/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/genericpath.py:19: in exists\n    os.stat(path)\nE   TypeError: stat: can't specify None for path argument"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : {
+    "name" : "Place Forex Order",
+    "url" : "Place Forex Order"
+  },
+  "suite" : {
+    "uid" : "562aeae57081b6d3",
+    "name" : "FDT_demo01",
+    "title" : "FDT demo 01"
+  },
+  "steps" : [ {
+    "name" : "Testcase 02",
+    "title" : "Testcase 02",
+    "time" : {
+      "start" : 1526198194334,
+      "stop" : 1526198197335,
+      "duration" : 3001
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Dag-MacBook-Pro"
+  }, {
+    "name" : "feature",
+    "value" : "188Asia app QAT Sanity Test Suite"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "Place Forex Order"
+  }, {
+    "name" : "thread",
+    "value" : "12947-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "suite-name",
+    "value" : "FDT_demo01"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,19 @@
+<ns0:environment xmlns:ns0="urn:model.commons.qatools.yandex.ru">
+  <id>e10a3322-7f80-4aee-bef4-7d2a61f2e324</id>
+  <name>Allure environment parameters</name>
+  <parameter>
+    <key>Device</key>
+    <name>Device</name>
+    <value>Android emulator</value>
+  </parameter>
+  <parameter>
+    <key>Version</key>
+    <name>Version</name>
+    <value>Android 6.0</value>
+  </parameter>
+  <parameter>
+    <key>Type</key>
+    <name>Type</name>
+    <value>Demo</value>
+  </parameter>
+</ns0:environment>
