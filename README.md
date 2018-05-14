@@ -97,9 +97,11 @@ A python mobile automation testing framework based on ```Appium```, ```Pytest```
 
 ---
 
-### Contact info
+### Contact me
 
+Blog: blog.autoruby.com
 Email: davidtclin58@gmail.com
+Linkedin: https://www.linkedin.com/in/davidtclin/
 
 
 
