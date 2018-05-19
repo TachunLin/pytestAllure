@@ -64,6 +64,14 @@ A python mobile automation testing framework based on ```Appium```, ```Pytest```
 
     > brew install ```allure-commandline```
 
+* Instal PyYaml
+
+    > pip3 install PyYaml 
+
+* Instal requests
+
+    > pip3 install requests
+
 ---
 
 ### Trigger Testing
